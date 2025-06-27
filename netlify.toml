@@ -1,0 +1,7 @@
+[build]
+  base = "/"
+  publish = "/"
+  command = "echo 'Static site ready to deploy!'"
+
+[context.production.environment]
+  NODE_ENV = "production"
